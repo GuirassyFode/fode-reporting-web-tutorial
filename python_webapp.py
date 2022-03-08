@@ -8,7 +8,7 @@ st.header('Survey Results 2021')
 st.subheader('Was the tutorial helpful?')
 
 ### --- LOAD DATAFRAME
-excel_file = 'C:/Users/guirassy028358/Documents/Python Scripts/fode-reporting-web-tutorial-main/Survey_Results.xlsx'
+excel_file = 'C:/Users/guirassy028358/Documents/PythonScripts/fode-reporting-web-tutorial-main/Results.xlsx'
 sheet_name = 'DATA'
 
 df = pd.read_excel(excel_file,
