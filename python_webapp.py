@@ -3,11 +3,11 @@ import streamlit as st
 import plotly.express as px
 from PIL import Image
 from openpyxl import Workbook
-
-st.set_page_config(page_title='Survey Results')
-st.header('Survey Results 2021')
-st.subheader('Was the tutorial helpful?')
-import os
+from openpyxl import Workbook
+# st.set_page_config(page_title='Survey Results')
+# st.header('Survey Results 2021')
+# st.subheader('Was the tutorial helpful?')
+# import os
 ### --- LOAD DATAFRAME
 # mydir = 'C:/report/fode-reporting-web-tutorial-main/'
 # excel_file = 'Results.xlsx'
